@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>rfproductfactory</name>
+    <displayName><![CDATA[RF Product Factory]]></displayName>
+    <version><![CDATA[0.4.0]]></version>
+    <description><![CDATA[Création contrôlée de fiches produits depuis une page web ou un copier-coller Excel.]]></description>
+    <author><![CDATA[Rebel Forge]]></author>
+    <tab><![CDATA[administration]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

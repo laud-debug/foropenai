@@ -175,6 +175,7 @@ z-index: 1000;
     }
 
     #adtm_menu .advtm_menu_1 .adtm_column_wrap {
+        width: 100% !important;
         padding-top: 14px !important;
     }
 

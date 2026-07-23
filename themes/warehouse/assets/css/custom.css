@@ -1,0 +1,190 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+
+.ps-shoppingcart.dropdown #blockcart-content{
+z-index: 1000;
+}
+
+/* *********************************************************************/
+/* Netenvie 2025 *******************************************************/
+
+/* général *********************************/
+@media (min-width: 1480px){
+    .container, .elementor-section.elementor-section-boxed > .elementor-container {
+    	max-width: 1440px !important;
+    }
+}
+@media (min-width: 1680px){
+    .container, .elementor-section.elementor-section-boxed > .elementor-container {
+    	max-width: 1640px !important;
+    }
+}
+@media (min-width: 1880px){
+    .container, .elementor-section.elementor-section-boxed > .elementor-container {
+    	max-width: 1840px !important;
+    }
+}
+
+/* Couleurs *********************************/
+#content-wrapper .page-title,
+#wrapper .block-title a:link, #wrapper .block-title a:visited,
+#wrapper .block-title
+{
+    color: #9b9b9b;
+}
+
+.elementor-element .elementor-heading-title, .elementor-element .elementor-heading-title a {
+    color: #d47800;
+}
+
+@media (max-width: 767px){
+    body {
+    	background-position: center top;
+    }
+}
+
+/* Header et menu *************************/
+#header .header-nav {
+    color: #fff;
+    background: #000d28;
+    border-bottom: 1px solid #282828;
+}
+.col-mobile-menu-push #_mobile_iqitmegamenu-mobile {
+    width: 348px !important;
+}
+
+
+/* Fiche produit *************************/
+.stockalert-add, .stockalert-remove {
+    background: #1c1c1c;
+}
+/* colissimo *************************/
+@media (min-width: 1100px){
+.colissimo-front-widget .modal-content {
+    width:1035px !important;
+}
+}
+
+
+
+/* Listing produit *************************/
+#products .products {
+    gap: 20px 0;
+}
+#products .products .add-to-cart
+{
+    margin-bottom:  2rem;
+}
+
+/* RF-UX-001 — Début correction Jeux de Figurines */
+
+/* règles exclusivement limitées à :
+   #adtm_menu .advtm_menu_1
+*/
+#adtm_menu .advtm_menu_1 > .adtm_sub {
+    box-sizing: border-box;
+    left: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+    padding: 20px !important;
+    border: 1px solid rgba(208, 170, 78, 0.3) !important;
+    border-radius: 0 0 8px 8px !important;
+}
+
+#adtm_menu .advtm_menu_1 .columnWrapTable {
+    width: 100% !important;
+    table-layout: fixed !important;
+    border-collapse: collapse !important;
+}
+
+#adtm_menu .advtm_menu_1 .adtm_column_wrap_td {
+    box-sizing: border-box;
+    width: 25% !important;
+    padding: 0 18px !important;
+    vertical-align: top;
+    border-right: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
+
+#adtm_menu .advtm_menu_1 .adtm_column_wrap_td:last-child {
+    border-right: 0 !important;
+}
+
+#adtm_menu .advtm_menu_1 .adtm_column_wrap,
+#adtm_menu .advtm_menu_1 .adtm_column {
+    box-sizing: border-box;
+    min-width: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#adtm_menu .advtm_menu_1 .column_wrap_title {
+    display: block;
+    min-height: 40px;
+    margin: 0 0 10px !important;
+    padding: 0 0 10px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+#adtm_menu .advtm_menu_1 .adtm_elements > li > a,
+#adtm_menu .advtm_menu_1 .adtm_elements > li > span[data-href] {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 34px;
+    padding: 5px 0 !important;
+}
+
+#adtm_menu .advtm_menu_1 .adtm_elements > li > a:hover,
+#adtm_menu .advtm_menu_1 .adtm_elements > li > span[data-href]:hover {
+    background: transparent !important;
+    transform: none !important;
+}
+
+#adtm_menu .advtm_menu_1 .adtm_menu_icon {
+    display: inline-block !important;
+    flex: 0 0 24px;
+    width: 24px !important;
+    height: 24px !important;
+    max-width: 24px !important;
+    max-height: 24px !important;
+    margin: 0 8px 0 0 !important;
+    object-fit: contain !important;
+    vertical-align: middle;
+}
+
+@media (max-width: 1024px) {
+    #adtm_menu .advtm_menu_1 > .adtm_sub {
+        width: 100% !important;
+        padding: 12px !important;
+        border-radius: 0 !important;
+    }
+
+    #adtm_menu .advtm_menu_1 .adtm_column_wrap_td {
+        display: block;
+        width: 100% !important;
+        padding: 0 0 14px !important;
+        border-right: 0 !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
+    }
+
+    #adtm_menu .advtm_menu_1 .adtm_column_wrap_td:last-child {
+        padding-bottom: 0 !important;
+        border-bottom: 0 !important;
+    }
+
+    #adtm_menu .advtm_menu_1 .adtm_column_wrap {
+        padding-top: 14px !important;
+    }
+
+    #adtm_menu .advtm_menu_1 .adtm_column_wrap_td:first-child .adtm_column_wrap {
+        padding-top: 0 !important;
+    }
+
+    #adtm_menu .advtm_menu_1 .column_wrap_title {
+        min-height: 0;
+    }
+}
+
+/* RF-UX-001 — Fin correction Jeux de Figurines */
